@@ -1,0 +1,25 @@
+
+# Check if the node.js is installed 
+
+node -v
+if uninstalled https://nodejs.org/en
+
+
+# install JavaScript (ES6) Code Snippets Extension on vscode
+
+# console.log("Hello, World!");
+# node app.js to run code in terminal
+# or Ctrl + Shift + X install code runner
+
+
+# edit package.json to specify "type": "module"
+
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

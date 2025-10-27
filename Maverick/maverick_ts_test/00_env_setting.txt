@@ -1,0 +1,72 @@
+
+# Check if the node.js is installed 
+
+node -v
+if uninstalled https://nodejs.org/en
+
+
+# install JavaScript (ES6) Code Snippets Extension on vscode
+
+# console.log("Hello, World!");
+# node app.js to run code in terminal
+# or Ctrl + Shift + X install code runner
+
+
+
+
+npm init -y  
+# create package.json
+
+
+
+npm install typescript
+tsc --version
+tsc --init --sourceMap --rootDir src --outDir dist
+
+
+tsc ///compile into js
+
+launch.json 
+
+replace
+            //"program": "${workspaceFolder}/src/index.ts",
+by
+            "program": "${workspaceFolder}/dist/index.js",
+
+this could compile for ts script to js and then run debuger
+if want to eliminate the step for tsc, could do the following
+
+
+npm i --save-dev typescript
+
+F1 tasks: configure default build task
+tsc watch
+
+F1 Run build task
+
+
+sudo npm cache clean --force
+npm i --save-dev @types/node
+(sudo) npm install @solana/web3.js
+
+npm install @orca-so/whirlpools
+npm install typescript @orca-so/whirlpools
+
+
+# create .env file with following content, github ignore .env
+SECRET_KEY = "[193,..., 140]"
+
+
+
+# edit package.json to specify "type": "module"
+
+# ex.
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

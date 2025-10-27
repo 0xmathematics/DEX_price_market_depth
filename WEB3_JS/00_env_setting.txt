@@ -1,0 +1,41 @@
+
+# Check if the node.js is installed 
+
+node -v
+if uninstalled https://nodejs.org/en
+
+
+# install JavaScript (ES6) Code Snippets Extension on vscode
+
+# console.log("Hello, World!");
+# node app.js to run code in terminal
+# or Ctrl + Shift + X install code runner
+
+
+
+
+npm init -y  
+# create package.json
+
+sudo npm cache clean --force
+(sudo) npm install @solana/web3.js
+npm i @solana-developers/helpers
+npm i @raydium-io/raydium-sdk
+
+# create .env file with following content, github ignore .env
+SECRET_KEY = "[193,..., 140]"
+
+
+
+# edit package.json to specify "type": "module"
+
+# ex.
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

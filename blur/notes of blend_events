@@ -1,0 +1,25 @@
+
+blur_ethereum.blend_events
+
+
+select distinct nft_collection_name
+from blur_ethereum.blend_events
+
+MutantApeYachtClub
+Kanpai Pandas
+Otherdeed for Otherside
+Azuki Elemental Beans
+Azuki
+Wrapped Cryptopunks
+CloneX
+LilPudgys
+PudgyPenguins
+Azuki Elementals
+BEANZ Official
+Bored Ape Yacht Club
+Redacted Remilio Babies
+DeGods
+Boners NFT
+Moonbirds
+Milady
+Bored Ape Kennel Club

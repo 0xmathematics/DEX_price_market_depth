@@ -1,0 +1,42 @@
+__pycache__
+.DS_Store
+*.csv
+/etherJS/node_modules
+/etherJS/folder_backup_sent to dp
+/WEB3_JS/node_modules
+WEB3_JS/solana_keypair.env
+WEB3_JS/package.json
+WEB3_JS/package-lock.json
+WEB3_JS/.env
+/orca/dist
+/orca/.vscode
+/orca/node_modules
+orca/src/.env
+orca/package-lock.json
+orca/package.json
+orca/tsconfig.json
+/orca_test/.vscode
+orca_test/.env
+/orca_test/node_modules
+orca/.env
+/Meteora/node_modules
+/typescript Env/node_modules
+/typescript Env/dist
+/typescript Env/.vscode
+*.json
+/Meteora/dist
+/Meteora test/node_modules
+/Meteora test/dist
+Meteora test/.env
+Meteora/.env
+Uniswap/config.env
+/Maverick/maverick_ts_test/node_modules
+/Maverick/maverick_ts_test/dist
+/orca_test/dist
+/utility_functions/web_query/downloads
+/utility_functions/web_query/downloads_market_depth_overview
+/uniswap_JS/node_modules
+/uniswap_TS_template/dist
+/uniswap_TS_template/node_modules
+/Uniswap/uniswap_TS_market_depth/node_modules
+/Uniswap/uniswap_TS_market_depth/dist

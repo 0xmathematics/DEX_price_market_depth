@@ -1,0 +1,38 @@
+node --version
+npx tsc --version
+npm install -D typescript @types/node
+npx tsc --init
+node -v # find the node version 22.x.x
+npm install -D @tsconfig/node22
+
+npm install @uniswap/sdk-core @uniswap/v3-sdk @uniswap/smart-order-router ethers
+
+# set the tsconfig.json as follows
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "ES2022", // or "ES2022"
+    "target": "ES2022", // or "ES2020" at minimum
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "test"]
+
+
+}
+# add following to the tsconfig.json 
+
+{
+  "type": "module",
+
+  "scripts": {
+    "example": "npx tsc && node dist/example.js",
+    "build": "npx tsc && node dist/test_quote.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+}
+
+npm run build
